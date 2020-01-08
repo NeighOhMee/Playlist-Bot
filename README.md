@@ -4,6 +4,9 @@
 Follow step 1 to generate a YOUR_CLIENT_SECRET_FILE.json
 https://developers.google.com/youtube/v3/quickstart/python
 
+Follow the install instructions for discord.py
+https://discordpy.readthedocs.io/en/latest/intro.html
+
 Create the discord bot by going to https://discordapp.com/ Developers - Developer Portal.
 click on new aplication and name the bot.
 Go to the bot tab and click on add bot.
