@@ -12,7 +12,7 @@ Invite the bot to your server by going to the OAuth2 tab and clicking on the bot
 In the Bot Permisions section check Send Messages, Send TTS Messages, Manage Messages, and Read Message History.
 Copy the link right above and past it into a browser.
 Select which server you want the bot in.
-Go back to main.py and where it says INSERT PLAYLIST ID HERE(on lines 2313 and 231) put the playlist id associated with the youtube account that you want to change.
+Go back to main.py and where it says INSERT PLAYLIST ID HERE(on lines 27 and 133) put the playlist id associated with the youtube account that you want to change. Playlist ID can be found in the youtube url of the playlist after ?list=
 Run the main.py file to activate the bot. The youtube api will give a link to authorize the bot. Select the youtube account that you want to change the playlist for.
 
 use !updatePlaylist to add all the songs in the channel to your playlist
@@ -21,4 +21,5 @@ use !playlist to get a link to your playlist
 
 ## References
 https://discordpy.readthedocs.io/en/latest/api.html#
+
 https://developers.google.com/youtube/v3/docs/playlistItems/insert?apix=true
