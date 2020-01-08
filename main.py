@@ -24,7 +24,7 @@ def insertVideo(videoId):
         part="snippet",
         body={
           "snippet": {
-            "playlistId": "PLEl38luv6tgnQvzjUKhLMUJr2jiB28gT4",
+            "playlistId": "INSERT PLAYLIST ID HERE",
             "position": 0,
             "resourceId": {
               "kind": "youtube#video",
@@ -130,7 +130,7 @@ async def playlist(ctx):
 	channels = ['testchannel', 'music-recommendations']
 	print(ctx.channel)
 	if str(ctx.channel) in channels:
-		await ctx.send("Here's the playlist of all the songs in this channel!\nhttps://www.youtube.com/playlist?list=PLEl38luv6tgnQvzjUKhLMUJr2jiB28gT4")
+		await ctx.send("Here's the playlist of all the songs in this channel!\nhttps://www.youtube.com/playlist?list=INSERT PLAYLISTID HERE")
 
 @client.command()
 async def clearPlaylist(ctx):
